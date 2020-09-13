@@ -2,6 +2,21 @@
 	"name": "@ctx-core/file-reader",
 	"version": "3.1.33",
 	"description": "ctx-core file-reader",
+	"keywords": [
+		"ctx-core",
+		"FileReader",
+		"file-reader"
+	],
+	"homepage": "https://github.com/ctx-core/file-reader#readme",
+	"bugs": {
+		"url": "https://github.com/ctx-core/file-reader/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/ctx-core/file-reader/issues"
+	},
+	"license": "Apache-2.0",
+	"author": "Brian Takita",
 	"main": "./index.js",
 	"module": "./index.js",
 	"types": "./index.ts",
@@ -9,29 +24,14 @@
 		"build": "npm run clean && npm run compile",
 		"clean": "rm -f tsconfig.tsbuildinfo",
 		"compile": "tsc -b",
-		"prepublishOnly": "npm run compile",
-		"exec": "$@"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/ctx-core/file-reader/issues"
-	},
-	"keywords": [
-		"ctx-core",
-		"FileReader",
-		"file-reader"
-	],
-	"author": "Brian Takita",
-	"license": "Apache-2.0",
-	"bugs": {
-		"url": "https://github.com/ctx-core/file-reader/issues"
-	},
-	"homepage": "https://github.com/ctx-core/file-reader#readme",
-	"publishConfig": {
-		"access": "public"
+		"exec": "$@",
+		"prepublishOnly": "npm run compile"
 	},
 	"devDependencies": {
 		"typescript": "^4.0.2"
+	},
+	"publishConfig": {
+		"access": "public"
 	},
 	"gitHead": "52f96b18c0c6564c1ed62758f347192872032c12"
 }
