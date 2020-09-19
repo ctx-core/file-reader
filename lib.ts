@@ -14,12 +14,12 @@ function readAs(file:File, as) {
 	}
 	return new Promise((resolve, reject)=>{
 		const reader = new FileReader()
-		reader.onload = e=>resolve(e.target.result)
+		reader.onload = (e:Event)=>resolve((e.target as FileReader).result)
 		reader.onerror =
-			e=>
+			(e:Event)=>
 				reject(
 					new Error(
-						`Error reading ${file.name}: ${e.target.result}`))
+						`Error reading ${file.name}: ${(e.target as FileReader).result}`))
 		reader[`readAs${as}`](file)
 	})
 }

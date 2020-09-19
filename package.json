@@ -1,6 +1,6 @@
 {
   "name": "@ctx-core/file-reader",
-  "version": "3.1.34",
+  "version": "4.0.0",
   "description": "ctx-core file-reader",
   "keywords": [
     "ctx-core",
@@ -28,7 +28,7 @@
     "prepublishOnly": "npm run compile"
   },
   "devDependencies": {
-    "typescript": "^4.0.2"
+    "typescript": "^4.0.3"
   },
   "publishConfig": {
     "access": "public"
