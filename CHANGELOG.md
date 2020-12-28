@@ -1,5 +1,13 @@
 # @ctx-core/file-reader
 
+## 4.1.0
+
+### Minor Changes
+
+- readAs_DataURL as readAsDataURL
+- readAs_ArrayBuffer as readAsArrayBuffer
+- readAs_Text as readAsText
+
 ## 4.0.6
 
 ### Patch Changes
