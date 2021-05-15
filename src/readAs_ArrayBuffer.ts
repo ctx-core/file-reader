@@ -1,5 +1,5 @@
 import { readAs } from './readAs'
-export function readAs_ArrayBuffer(file) {
+export function readAs_ArrayBuffer(file:File) {
 	return readAs(file, 'ArrayBuffer')
 }
 export {

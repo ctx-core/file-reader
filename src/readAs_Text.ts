@@ -1,5 +1,5 @@
 import { readAs } from './readAs'
-export function readAs_Text(file) {
+export function readAs_Text(file:File) {
 	return readAs(file, 'Text')
 }
 export {

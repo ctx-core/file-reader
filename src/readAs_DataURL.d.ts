@@ -1,2 +1,2 @@
-export declare function readAs_DataURL(file: any): Promise<unknown>;
+export declare function readAs_DataURL(file: File): Promise<unknown>;
 export { readAs_DataURL as readAsDataURL, };
