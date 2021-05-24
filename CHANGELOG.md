@@ -1,5 +1,11 @@
 # @ctx-core/file-reader
 
+## 5.2.0
+
+### Minor Changes
+
+- dist,types directory: addressing typescript build issues
+
 ## 5.1.3
 
 ### Patch Changes
