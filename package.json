@@ -16,6 +16,7 @@
 		"url": "https://github.com/ctx-core/file-reader/issues"
 	},
 	"license": "Apache-2.0",
+	"type": "module",
 	"author": "Brian Takita",
 	"main": "./dist/index.js",
 	"module": "./dist/index.js",
