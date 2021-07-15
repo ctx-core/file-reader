@@ -1,4 +1,4 @@
-import { readAs } from './readAs'
+import { readAs } from './readAs.js'
 export function readAs_ArrayBuffer(file:File) {
 	return readAs(file, 'ArrayBuffer')
 }

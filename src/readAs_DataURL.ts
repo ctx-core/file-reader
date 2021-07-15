@@ -1,4 +1,4 @@
-import { readAs } from './readAs'
+import { readAs } from './readAs.js'
 export function readAs_DataURL(file:File) {
 	return readAs(file, 'DataURL')
 }
