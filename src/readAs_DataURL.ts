@@ -1,6 +1,6 @@
 import { readAs } from './readAs.js'
-export function readAs_DataURL(file:File) {
-	return readAs(file, 'DataURL')
+export async function readAs_DataURL(file:File):Promise<void> {
+	return await readAs(file, 'DataURL') as void
 }
 export {
 	readAs_DataURL as readAsDataURL,

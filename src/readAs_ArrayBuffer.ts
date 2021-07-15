@@ -1,6 +1,6 @@
 import { readAs } from './readAs.js'
-export function readAs_ArrayBuffer(file:File) {
-	return readAs(file, 'ArrayBuffer')
+export async function readAs_ArrayBuffer(file:File):Promise<void> {
+	return await readAs(file, 'ArrayBuffer') as void
 }
 export {
 	readAs_ArrayBuffer as readAsArrayBuffer,

@@ -1,5 +1,7 @@
 // Ported from https://github.com/jahredhope/promise-file-reader/blob/master/PromiseFileReader.js
-export function readAs(file:File, as:'ArrayBuffer'|'BinaryString'|'DataURL'|'Text') {
+export function readAs(
+	file:File, as:'ArrayBuffer'|'BinaryString'|'DataURL'|'Text'
+):Promise<string|ArrayBuffer|Blob|null|undefined> {
 	if (!(file instanceof Blob)) {
 		throw new TypeError('Must be a File or Blob')
 	}
@@ -11,6 +13,17 @@ export function readAs(file:File, as:'ArrayBuffer'|'BinaryString'|'DataURL'|'Tex
 				reject(
 					new Error(
 						`Error reading ${file.name}: ${(e.target as FileReader).result}`))
-		reader[`readAs${as}` as 'readAsArrayBuffer'|'readAsBinaryString'|'readAsDataURL'|'readAsText'](file)
+		switch (as) {
+			case 'ArrayBuffer':
+				return reader.readAsArrayBuffer(file)
+			case 'BinaryString':
+				return reader.readAsBinaryString(file)
+			case 'DataURL':
+				return reader.readAsDataURL(file)
+			case 'Text':
+				return reader.readAsText(file)
+			default:
+				throw `Invalid as argument: ${as}`
+		}
 	})
 }
