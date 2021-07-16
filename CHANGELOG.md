@@ -1,5 +1,11 @@
 # @ctx-core/file-reader
 
+## 7.0.4
+
+### Patch Changes
+
+- support cjs & esm: + "exports"
+
 ## 7.0.3
 
 ### Patch Changes
