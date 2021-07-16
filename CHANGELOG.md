@@ -1,5 +1,11 @@
 # @ctx-core/file-reader
 
+## 7.0.9
+
+### Patch Changes
+
+- fix: cjs: load as a Promise
+
 ## 7.0.8
 
 ### Patch Changes
