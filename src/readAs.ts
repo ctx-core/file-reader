@@ -1,6 +1,6 @@
 // Ported from https://github.com/jahredhope/promise-file-reader/blob/master/PromiseFileReader.js
 export function readAs(
-	file:File, as:'ArrayBuffer'|'BinaryString'|'DataURL'|'Text'
+	file:File, as: 'ArrayBuffer'|'BinaryString'|'DataURL'|'Text'
 ):Promise<string|ArrayBuffer|Blob|null|undefined> {
 	if (!(file instanceof Blob)) {
 		throw new TypeError('Must be a File or Blob')

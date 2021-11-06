@@ -1,5 +1,11 @@
 # @ctx-core/file-reader
 
+## 7.0.17
+
+### Patch Changes
+
+- fix: return types: readAs_ArrayBuffer,readAs_DataURL,readAs_Text
+
 ## 7.0.16
 
 ### Patch Changes
