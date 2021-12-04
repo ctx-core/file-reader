@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/file-reader",
-	"version": "7.0.23",
+	"version": "7.0.24",
 	"description": "ctx-core file-reader",
 	"keywords": [
 		"ctx-core",
@@ -37,7 +37,7 @@
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.52",
-		"@swc/core": "^1.2.116",
+		"@swc/core": "^1.2.117",
 		"typescript": "next"
 	},
 	"publishConfig": {
