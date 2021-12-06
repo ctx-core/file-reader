@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/file-reader",
-	"version": "7.0.25",
+	"version": "7.0.26",
 	"description": "ctx-core file-reader",
 	"keywords": [
 		"ctx-core",
@@ -18,7 +18,6 @@
 	"license": "Apache-2.0",
 	"author": "Brian Takita",
 	"type": "module",
-	"main": "./dist/index.js",
 	"module": "./dist/index.js",
 	"types": "./src/index.ts",
 	"exports": {
