@@ -1,5 +1,11 @@
 # @ctx-core/file-reader
 
+## 7.0.33
+
+### Patch Changes
+
+- package.json: "types": "./src/index.ts": better editing experience
+
 ## 7.0.32
 
 ### Patch Changes
