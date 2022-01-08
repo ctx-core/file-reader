@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/file-reader",
-	"version": "7.0.38",
+	"version": "7.0.39",
 	"description": "ctx-core file-reader",
 	"keywords": [
 		"ctx-core",
@@ -45,5 +45,6 @@
 		"access": "public",
 		"cache": "~/.npm"
 	},
-	"svelte": "./lib/index.js"
+	"svelte": "./lib/index.js",
+	"sideEffects": false
 }
