@@ -1,5 +1,11 @@
 # @ctx-core/file-reader
 
+## 7.0.43
+
+### Patch Changes
+
+- tsconfig.json: - importsNotUsedAsValues
+
 ## 7.0.42
 
 ### Patch Changes
