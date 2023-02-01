@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/file-reader",
-	"version": "7.0.43",
+	"version": "7.0.44",
 	"description": "ctx-core file-reader",
 	"keywords": [
 		"ctx-core",
@@ -35,7 +35,7 @@
 	},
 	"devDependencies": {
 		"@swc/cli": "^0.1.60",
-		"@swc/core": "^1.3.31",
+		"@swc/core": "^1.3.32",
 		"rimraf": "^4.1.2",
 		"typescript": "next"
 	},
