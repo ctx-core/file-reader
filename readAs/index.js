@@ -1,7 +1,7 @@
 /**
  * Ported from https://github.com/jahredhope/promise-file-reader/blob/master/PromiseFileReader.js
- * @param file{File}
- * @param as{'ArrayBuffer'|'BinaryString'|'DataURL'|'Text'}
+ * @param {File}file
+ * @param {'ArrayBuffer'|'BinaryString'|'DataURL'|'Text'}as
  * @returns {Promise<string|ArrayBuffer|Blob|null|undefined>}
  */
 export function readAs(

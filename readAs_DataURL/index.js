@@ -1,6 +1,6 @@
 import { readAs } from '../readAs/index.js'
 /**
- * @param file{File}
+ * @param {File}file
  * @returns {Promise<string>}
  */
 export async function readAs_DataURL(file) {
