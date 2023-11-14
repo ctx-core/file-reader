@@ -1,5 +1,11 @@
 # @ctx-core/file-reader
 
+## 7.2.2
+
+### Patch Changes
+
+- fix: missing tsconfig.json
+
 ## 7.2.1
 
 ### Patch Changes
