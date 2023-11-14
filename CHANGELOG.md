@@ -1,5 +1,11 @@
 # @ctx-core/file-reader
 
+## 7.2.1
+
+### Patch Changes
+
+- tsx: ^4.0.0 -> ^4.1.2
+
 ## 7.2.0
 
 ### Minor Changes
