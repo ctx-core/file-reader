@@ -1,5 +1,11 @@
 # @ctx-core/file-reader
 
+## 7.2.3
+
+### Patch Changes
+
+- package.json: files: + \*.js
+
 ## 7.2.2
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
 	"name": "@ctx-core/file-reader",
-	"version": "7.2.2",
+	"version": "7.2.3",
 	"description": "ctx-core file-reader",
 	"keywords": [
 		"ctx-core",
@@ -20,6 +20,7 @@
 	"type": "module",
 	"files": [
 		"*.d.ts",
+		"*.js",
 		"*.json",
 		"./readAs",
 		"./readAs_ArrayBuffer",
