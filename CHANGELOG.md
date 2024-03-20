@@ -1,5 +1,11 @@
 # @ctx-core/file-reader
 
+## 7.2.11
+
+### Patch Changes
+
+- package.json: author: url,email
+
 ## 7.2.10
 
 ### Patch Changes
