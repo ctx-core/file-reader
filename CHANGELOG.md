@@ -1,5 +1,11 @@
 # @ctx-core/file-reader
 
+## 7.2.13
+
+### Patch Changes
+
+- chore: migrate scripts from pnpm to bun
+
 ## 7.2.12
 
 ### Patch Changes
